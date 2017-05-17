@@ -1,0 +1,6 @@
+c:\Users\notfour\documents\visual studio 2017\Projects\OOP1\OOP1\bin\Debug\OOP1.exe.config
+c:\Users\notfour\documents\visual studio 2017\Projects\OOP1\OOP1\bin\Debug\OOP1.exe
+c:\Users\notfour\documents\visual studio 2017\Projects\OOP1\OOP1\bin\Debug\OOP1.pdb
+c:\Users\notfour\documents\visual studio 2017\Projects\OOP1\OOP1\obj\Debug\OOP1.csprojResolveAssemblyReference.cache
+c:\Users\notfour\documents\visual studio 2017\Projects\OOP1\OOP1\obj\Debug\OOP1.exe
+c:\Users\notfour\documents\visual studio 2017\Projects\OOP1\OOP1\obj\Debug\OOP1.pdb
