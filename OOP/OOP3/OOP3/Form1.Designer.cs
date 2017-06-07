@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OOP_2
+namespace OOP3
 {
     partial class Form1
     {
@@ -48,6 +48,7 @@ namespace OOP_2
             this.buttonCreate = new System.Windows.Forms.Button();
             this.tbOutput = new System.Windows.Forms.TextBox();
             this.labelError = new System.Windows.Forms.Label();
+            this.buttonShow = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelEnterpriseName
@@ -212,11 +213,22 @@ namespace OOP_2
             this.labelError.Text = "Ошибка ввода";
             this.labelError.Visible = false;
             // 
+            // buttonShow
+            // 
+            this.buttonShow.Location = new System.Drawing.Point(156, 246);
+            this.buttonShow.Name = "buttonShow";
+            this.buttonShow.Size = new System.Drawing.Size(100, 23);
+            this.buttonShow.TabIndex = 18;
+            this.buttonShow.Text = "Показать";
+            this.buttonShow.UseVisualStyleBackColor = true;
+            this.buttonShow.Click += new System.EventHandler(this.buttonShow_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(513, 262);
+            this.ClientSize = new System.Drawing.Size(513, 273);
+            this.Controls.Add(this.buttonShow);
             this.Controls.Add(this.labelError);
             this.Controls.Add(this.tbOutput);
             this.Controls.Add(this.buttonCreate);
@@ -260,6 +272,11 @@ namespace OOP_2
             }
         }
 
+        private void buttonShow_Click(object sender, System.EventArgs e)
+        {
+            Program.ShowAllEnterprises();
+        }
+
         #endregion
 
         public System.Windows.Forms.Label labelEnterpriseName;
@@ -280,6 +297,7 @@ namespace OOP_2
         public System.Windows.Forms.Button buttonCreate;
         public System.Windows.Forms.TextBox tbOutput;
         public System.Windows.Forms.Label labelError;
+        private System.Windows.Forms.Button buttonShow;
     }
 }
 

@@ -1,0 +1,9 @@
+C:\Users\notfour\Documents\Visual Studio 2017\Projects\OOP 2\OOP 2\obj\Debug\OOP 2.csprojResolveAssemblyReference.cache
+C:\Users\notfour\Documents\Visual Studio 2017\Projects\OOP 2\OOP 2\obj\Debug\OOP_2.Form1.resources
+C:\Users\notfour\Documents\Visual Studio 2017\Projects\OOP 2\OOP 2\obj\Debug\OOP_2.Properties.Resources.resources
+C:\Users\notfour\Documents\Visual Studio 2017\Projects\OOP 2\OOP 2\obj\Debug\OOP 2.csproj.GenerateResource.Cache
+C:\Users\notfour\Documents\Visual Studio 2017\Projects\OOP 2\OOP 2\bin\Debug\OOP 2.exe.config
+C:\Users\notfour\Documents\Visual Studio 2017\Projects\OOP 2\OOP 2\bin\Debug\OOP 2.exe
+C:\Users\notfour\Documents\Visual Studio 2017\Projects\OOP 2\OOP 2\bin\Debug\OOP 2.pdb
+C:\Users\notfour\Documents\Visual Studio 2017\Projects\OOP 2\OOP 2\obj\Debug\OOP 2.exe
+C:\Users\notfour\Documents\Visual Studio 2017\Projects\OOP 2\OOP 2\obj\Debug\OOP 2.pdb

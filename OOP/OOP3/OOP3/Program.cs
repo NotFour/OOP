@@ -1,13 +1,15 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace OOP_2
+namespace OOP3
 {
     static class Program
     {
+
         static Form1 form;
         static string enterpriseName;
         static int workmans;
@@ -16,6 +18,8 @@ namespace OOP_2
         static int hoursPerMonth;
         static double imposing;
         static string superior;
+        static Queue<Enterprise> queue = new Queue<Enterprise>();
+
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>
@@ -45,7 +49,15 @@ namespace OOP_2
 
         public static void CreateEnterprise()
         {
-            form.tbOutput.Text = new Enterprise(enterpriseName, workmans, paymentPerHour, bestWorker, hoursPerMonth, imposing, superior).ToString();
+            queue.Enqueue(new Enterprise(enterpriseName, workmans, paymentPerHour, bestWorker, hoursPerMonth, imposing, superior));
         }
+
+        public static void ShowAllEnterprises()
+        {
+            form.tbOutput.Text = null;
+            foreach (Enterprise i in queue)
+                form.tbOutput.Text += i.ToString()+"\n";
+        }
+
     }
 }
