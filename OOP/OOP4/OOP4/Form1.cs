@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace OOP3
+namespace OOP4
 {
     public partial class Form1 : Form
     {

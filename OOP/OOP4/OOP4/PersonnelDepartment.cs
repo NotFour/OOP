@@ -1,17 +1,10 @@
-﻿namespace OOP3
+﻿namespace OOP4
 {
-    class Enterprise
+    class PersonnelDepartment : Department
     {
-        private string _enterpriseName;
-        private int _workmans;
-        private double _paymentPerHour;
-        private string _bestWorker;
-        private int _hoursPerMonth;
-        private double _imposing;
-        private string _superior;
         public static int objects = 0;
 
-        public Enterprise()
+        public PersonnelDepartment()
         {
             objects++;
             _enterpriseName = "Funcorp";
@@ -23,7 +16,7 @@
             _superior = "Cherkasova";
         }
 
-        public Enterprise(string enterpriseName)
+        public PersonnelDepartment(string enterpriseName)
         {
             objects++;
             _enterpriseName = enterpriseName;
@@ -35,7 +28,7 @@
             _superior = "Cherkasova";
         }
 
-        public Enterprise(string enterpriseName, int workmans)
+        public PersonnelDepartment(string enterpriseName, int workmans)
         {
             objects++;
             _enterpriseName = enterpriseName;
@@ -47,7 +40,7 @@
             _superior = "Cherkasova";
         }
 
-        public Enterprise(string enterpriseName,
+        public PersonnelDepartment(string enterpriseName,
         int workmans,
         double paymentPerHour,
         string bestWorker,
@@ -63,41 +56,6 @@
             _hoursPerMonth = hoursPerMonth;
             _imposing = imposing;
             _superior = superior;
-        }
-
-        public string GetEnterpriseName()
-        {
-            return _enterpriseName;
-        }
-
-        public int GetWorkmans()
-        {
-            return _workmans;
-        }
-
-        public double GetPaymentPerHour()
-        {
-            return _paymentPerHour;
-        }
-
-        public string GetBestWorker()
-        {
-            return _bestWorker;
-        }
-
-        public int GetHoursPerMonth()
-        {
-            return _hoursPerMonth;
-        }
-
-        public double GetImposing()
-        {
-            return _imposing;
-        }
-
-        public string GetSuperior()
-        {
-            return _superior;
         }
 
         public override string ToString()

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace OOP3
+namespace OOP4
 {
     static class Program
     {
@@ -15,7 +15,7 @@ namespace OOP3
         static int hoursPerMonth;
         static double imposing;
         static string superior;
-        static Queue<Enterprise> queue;
+        static Queue<PersonnelDepartment> queue;
 
         /// <summary>
         /// Главная точка входа для приложения.
@@ -26,7 +26,7 @@ namespace OOP3
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             form = new Form1();
-            queue = new Queue<Enterprise>();
+            queue = new Queue<PersonnelDepartment>();
             Application.Run(form);
         }
 
@@ -36,24 +36,24 @@ namespace OOP3
             bestWorker = form.tbBestWorker.Text;
             superior = form.tbSuperior.Text;
 
-            return ((Enterprise.CheckingEnterpriseName(enterpriseName)) &&
-                    (Int32.TryParse(form.tbWorkmans.Text, out workmans) && Enterprise.CheckingWorkmans(workmans)) &&
-                    (Double.TryParse(form.tbPaymentPerHour.Text, out paymentPerHour) && Enterprise.CheckingPaymentPerHour(paymentPerHour)) &&
-                    (Enterprise.CheckingBestWorker(bestWorker)) &&
-                    (Int32.TryParse(form.tbHoursPerMonth.Text, out hoursPerMonth) && Enterprise.CheckingHoursPerMonth(hoursPerMonth)) &&
-                    (Double.TryParse(form.tbImposing.Text, out imposing) && Enterprise.CheckingImposing(imposing)) &&
-                    (Enterprise.CheckingSuperior(superior)));
+            return ((PersonnelDepartment.CheckingEnterpriseName(enterpriseName)) &&
+                    (Int32.TryParse(form.tbWorkmans.Text, out workmans) && PersonnelDepartment.CheckingWorkmans(workmans)) &&
+                    (Double.TryParse(form.tbPaymentPerHour.Text, out paymentPerHour) && PersonnelDepartment.CheckingPaymentPerHour(paymentPerHour)) &&
+                    (PersonnelDepartment.CheckingBestWorker(bestWorker)) &&
+                    (Int32.TryParse(form.tbHoursPerMonth.Text, out hoursPerMonth) && PersonnelDepartment.CheckingHoursPerMonth(hoursPerMonth)) &&
+                    (Double.TryParse(form.tbImposing.Text, out imposing) && PersonnelDepartment.CheckingImposing(imposing)) &&
+                    (PersonnelDepartment.CheckingSuperior(superior)));
         }
 
         public static void CreateEnterprise()
         {
-            queue.Enqueue(new Enterprise(enterpriseName, workmans, paymentPerHour, bestWorker, hoursPerMonth, imposing, superior));
+            queue.Enqueue(new PersonnelDepartment(enterpriseName, workmans, paymentPerHour, bestWorker, hoursPerMonth, imposing, superior));
         }
 
         public static void ShowAllEnterprises()
         {
             form.tbOutput.Text = null;
-            foreach (Enterprise i in queue)
+            foreach (PersonnelDepartment i in queue)
                 form.tbOutput.Text += i.ToString()+"\n";
         }
 
