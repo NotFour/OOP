@@ -1,0 +1,9 @@
+c:\users\notfour\documents\visual studio 2017\Projects\OOP5\OOP5\obj\Debug\OOP5.csprojResolveAssemblyReference.cache
+c:\users\notfour\documents\visual studio 2017\Projects\OOP5\OOP5\obj\Debug\OOP5.Form1.resources
+c:\users\notfour\documents\visual studio 2017\Projects\OOP5\OOP5\obj\Debug\OOP5.Properties.Resources.resources
+c:\users\notfour\documents\visual studio 2017\Projects\OOP5\OOP5\obj\Debug\OOP5.csproj.GenerateResource.Cache
+c:\users\notfour\documents\visual studio 2017\Projects\OOP5\OOP5\bin\Debug\OOP5.exe.config
+c:\users\notfour\documents\visual studio 2017\Projects\OOP5\OOP5\bin\Debug\OOP5.exe
+c:\users\notfour\documents\visual studio 2017\Projects\OOP5\OOP5\bin\Debug\OOP5.pdb
+c:\users\notfour\documents\visual studio 2017\Projects\OOP5\OOP5\obj\Debug\OOP5.exe
+c:\users\notfour\documents\visual studio 2017\Projects\OOP5\OOP5\obj\Debug\OOP5.pdb

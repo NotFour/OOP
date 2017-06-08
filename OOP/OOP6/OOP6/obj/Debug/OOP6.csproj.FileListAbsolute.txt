@@ -1,0 +1,9 @@
+c:\users\notfour\documents\visual studio 2017\Projects\OOP6\OOP6\bin\Debug\OOP6.exe.config
+c:\users\notfour\documents\visual studio 2017\Projects\OOP6\OOP6\bin\Debug\OOP6.exe
+c:\users\notfour\documents\visual studio 2017\Projects\OOP6\OOP6\bin\Debug\OOP6.pdb
+c:\users\notfour\documents\visual studio 2017\Projects\OOP6\OOP6\obj\Debug\OOP6.csprojResolveAssemblyReference.cache
+c:\users\notfour\documents\visual studio 2017\Projects\OOP6\OOP6\obj\Debug\OOP6.Form1.resources
+c:\users\notfour\documents\visual studio 2017\Projects\OOP6\OOP6\obj\Debug\OOP6.Properties.Resources.resources
+c:\users\notfour\documents\visual studio 2017\Projects\OOP6\OOP6\obj\Debug\OOP6.csproj.GenerateResource.Cache
+c:\users\notfour\documents\visual studio 2017\Projects\OOP6\OOP6\obj\Debug\OOP6.exe
+c:\users\notfour\documents\visual studio 2017\Projects\OOP6\OOP6\obj\Debug\OOP6.pdb
