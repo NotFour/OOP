@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace OOP6
 {
-    class MyException : Exception
+    class MyException : InvalidCastException
     {
-        public MyException(string message)
-        {
-        }
+        public MyException() { }
+
+        public MyException(string message) : base(message) { }
     }
 }

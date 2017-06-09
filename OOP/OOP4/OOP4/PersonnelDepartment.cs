@@ -61,13 +61,13 @@
         public override string ToString()
         {
             return  "Объектов класса" + objects
-            +"\nОрганизация: " + _enterpriseName
-            + "\nКол-во работников: " + _workmans
-            + "\nПлата в час: " + _paymentPerHour
-            + "\nЛучший работник: " + _bestWorker
-            + "\nРабочих часов в месяц: " + _hoursPerMonth
-            + "\nНалог: " + _imposing
-            + "\nГлава отделения: " + _superior;
+            + "\r\nОрганизация: " + _enterpriseName
+            + "\r\nКол-во работников: " + _workmans
+            + "\r\nПлата в час: " + _paymentPerHour
+            + "\r\nЛучший работник: " + _bestWorker
+            + "\r\nРабочих часов в месяц: " + _hoursPerMonth
+            + "\r\nНалог: " + _imposing
+            + "\r\nГлава отделения: " + _superior + "\r\n\r\n";
         }
 
         public static bool CheckingEnterpriseName(string enterpriseName)

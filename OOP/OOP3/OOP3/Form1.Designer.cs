@@ -198,6 +198,7 @@ namespace OOP3
             this.tbOutput.Location = new System.Drawing.Point(274, 10);
             this.tbOutput.Multiline = true;
             this.tbOutput.Name = "tbOutput";
+            this.tbOutput.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.tbOutput.ShortcutsEnabled = false;
             this.tbOutput.Size = new System.Drawing.Size(224, 193);
             this.tbOutput.TabIndex = 14;

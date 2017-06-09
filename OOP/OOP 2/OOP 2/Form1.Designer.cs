@@ -192,15 +192,17 @@ namespace OOP_2
             // 
             // tbOutput
             // 
-            this.tbOutput.AcceptsTab = true;
+            this.tbOutput.AcceptsReturn = true;
             this.tbOutput.BackColor = System.Drawing.SystemColors.ControlLight;
             this.tbOutput.Location = new System.Drawing.Point(274, 10);
             this.tbOutput.Multiline = true;
             this.tbOutput.Name = "tbOutput";
+            this.tbOutput.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.tbOutput.ShortcutsEnabled = false;
             this.tbOutput.Size = new System.Drawing.Size(224, 193);
             this.tbOutput.TabIndex = 14;
             this.tbOutput.TabStop = false;
+            this.tbOutput.WordWrap = false;
             // 
             // labelError
             // 
@@ -282,4 +284,3 @@ namespace OOP_2
         public System.Windows.Forms.Label labelError;
     }
 }
-

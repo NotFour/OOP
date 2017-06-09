@@ -6,7 +6,6 @@ namespace OOP6
 {
     static class Program
     {
-
         static Form1 form;
         static string enterpriseName;
         static int workmans;
@@ -44,7 +43,6 @@ namespace OOP6
                         (Int32.TryParse(form.tbHoursPerMonth.Text, out hoursPerMonth) && PersonnelDepartment.CheckingHoursPerMonth(hoursPerMonth)) &&
                         (Double.TryParse(form.tbImposing.Text, out imposing) && PersonnelDepartment.CheckingImposing(imposing)) &&
                         (PersonnelDepartment.CheckingSuperior(superior)));
-
             }
             catch (MyException e)
             {

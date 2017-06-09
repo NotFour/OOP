@@ -37,7 +37,6 @@ namespace OOP1
         double imposing,
         string superior)
         {
-
             _enterpriseName = enterpriseName;
             _workmans = workmans;
             _paymentPerHour = paymentPerHour;
@@ -96,49 +95,42 @@ namespace OOP1
         public static bool checkingEnterpriseName(string enterpriseName)
         {
             if (enterpriseName.Length == 0) return false;
-
             return true;
         }
 
         public static bool checkingWorkmans(int workmans)
         {
             if (workmans <= 0) return false;
-
             return true;
         }
 
         public static bool checkingPaymentPerHour(double paymentPerHour)
         {
             if (paymentPerHour <= 0) return false;
-
             return true;
         }
 
         public static bool checkingBestWorker(string bestWorker)
         {
             if (bestWorker.Length == 0) return false;
-
             return true;
         }
 
         public static bool checkingHoursPerMonth(int hoursPerMonth)
         {
             if (hoursPerMonth <= 0) return false;
-
             return true;
         }
 
         public static bool checkingImposing(double imposing)
         {
             if (imposing <= 0) return false;
-
             return true;
         }
 
         public static bool checkingSuperior(string superior)
         {
             if (superior.Length == 0) return false;
-
             return true;
         }
     }
